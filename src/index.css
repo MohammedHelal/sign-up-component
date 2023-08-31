@@ -24,7 +24,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("./images/bg-intro-desktop.png");
+  background-image: url("../images/bg-intro-desktop.png");
   background-color: var(--color-red);
   font-family: "Poppins", "Garmond", Cambria, Cochin, Georgia, Times,
     "Times New Roman", serif;

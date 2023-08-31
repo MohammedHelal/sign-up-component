@@ -25,7 +25,7 @@ form {
 .input-error {
   border: 1px solid var(--color-red);
   color: var(--color-red);
-  background: url("./images/icon-error.svg") no-repeat right 3% bottom 50%;
+  background: url("../images/icon-error.svg") no-repeat right 3% bottom 50%;
 }
 
 .error {
