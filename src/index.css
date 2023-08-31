@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  /*### Primary*/
+  --color-red: hsl(0, 100%, 74%);
+  --color-green: hsl(154, 59%, 51%);
+
+  /*### Accent*/
+  --color-blue: hsl(248, 32%, 49%);
+
+  /*### Neutral*/
+  --color-dark-blue: hsl(249, 10%, 26%);
+  --color-grayish-blue: hsl(246, 25%, 77%);
+
+  /*Shadow Colors*/
+  --color-red-shadow: hsl(0, 100%, 70%);
+  --color-green-shadow: hsl(154, 59%, 45%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: var(--color-red);
+  font-family: "Poppins", "Garmond", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 16px;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0px 30px;
+  margin: 0;
+  position: relative;
+}

@@ -1,0 +1,60 @@
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 5px var(--color-red-shadow);
+}
+
+.input-container {
+  margin: 18px 0;
+  width: 100%;
+  position: relative;
+}
+
+.input,
+.input-error {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.input {
+  border: 1px solid var(--color-blue);
+}
+
+.input-error {
+  border: 1px solid var(--color-red);
+  color: var(--color-red);
+  background: url("./images/icon-error.svg") no-repeat right 3% bottom 50%;
+}
+
+.error {
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: end;
+  margin-top: 5px;
+  color: var(--color-red);
+}
+
+.success {
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--color-green);
+}
+
+.submit {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--color-green);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 5px var(--color-green-shadow);
+}
+
+.submit:active {
+  transform: translate(0, 5px);
+  box-shadow: 0 0 white;
+}
